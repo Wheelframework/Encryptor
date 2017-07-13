@@ -1,5 +1,5 @@
 {
-    "name": "phpwheelframework/encryptor",
+    "name": "wheel/encryptor",
     "description": "Encryption library.",
     "keywords": ["component"],
     "homepage": "https://www.phpwheelframework.com",
@@ -18,10 +18,10 @@
     },
     "autoload": {
         "psr-4": { 
-            "Wheel\\Encryptor\\": "" 
+            "Wheel\\Encryptor\\": "src/Wheel/Encryptor" 
         },
         "exclude-from-classmap": [
-            "/Tests/"
+            "/tests/"
         ]
     }
 }
